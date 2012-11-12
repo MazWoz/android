@@ -18,7 +18,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=htc_supersonic BUILD_FINGERPRINT=sp
 PRODUCT_CODENAME := Supersonic
 PRODUCT_VERSION_DEVICE_SPECIFIC := B3
 
-PRODUCT_MOTD :="\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n****************************\nMazWoz ROMs proudly presents\n----------------------------\nMazWoz-EVO Supersonic JB B3\n----------------------------\nvisit mazwoz.zamzow.us today\n****************************\n"
+PRODUCT_MOTD :="\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n****************************\nMazWoz ROMs proudly presents\n----------------------------\nMazWoz-EVO Supersonic JB B2\n----------------------------\nvisit mazwoz.zamzow.us today\n****************************\n"
 
 # Hot reboot
 PRODUCT_PACKAGE_OVERLAYS += \

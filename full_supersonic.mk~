@@ -97,11 +97,6 @@ PRODUCT_COPY_FILES += \
     device/htc/supersonic/prebuilt/lib/libcamera.so:obj/lib/libcamera.so \
     device/htc/supersonic/prebuilt/lib/libcamera.so:system/lib/libcamera.so
 
-# Temporary GPS blob replacement
-PRODUCT_COPY_FILES += \
-    device/htc/supersonic/prebuilt/lib/libgps.so:obj/lib/gps.supersonic.so \
-    device/htc/supersonic/prebuilt/lib/libgps.so:system/lib/gps.supersonic.so
-
 # media profiles and capabilities spec
 $(call inherit-product, device/htc/supersonic/media_a1026.mk)
 

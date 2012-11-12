@@ -225,25 +225,3 @@ on property:init.svc.wpa_supplicant=stopped
 
 on property:dev.bootcomplete=1
     start qcom-post-boot
-
-
-#cat /root/init.rc
-service map /system/bin/sdptool add --channel=16 MAS
-user bluetooth
-group bluetooth net_bt_admin
-disabled
-oneshot
-
-# sdptool browse local
-Service Name: OBEX Message Access
-Service RecHandle: 0x10008
-Service Class ID List:
-"" (0x1132)
-Protocol Descriptor List:
-"L2CAP" (0x0100)
-"RFCOMM" (0x0003)
-Channel: 16
-"OBEX" (0x0008)
-Profile Descriptor List:
-"" (0x1134)
-Version: 0x0100
