@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote	name="maz" 
+		fetch="git://github.com/MazWoz/" />
+    <project 	name="android_kernel_htc_qsd8k" 
+		path="kernel/htc/qsd8k" 
+		remote="maz" 
+		revision="jellybean" />
+</manifest>
